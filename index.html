@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <!--MAIN CONTAINER-->
+  <div class="main-container">
+
+    <!--SHOW-HIDE-DIV-->
+    <div class="show-hide">
+      <p class="show-text">Please enter valid value</p>
+    </div>
+
+    <!--HEADING-->
+    <h1 class="heading">Buying List</h1>
+
+    <div class="input-and-items">
+      <!--FORM FOR INPUT-->
+      <form class="submit-form">
+        <input id="text-value" type="text" name="dataField" placeholder="Upišite proizvod..." required>
+        <input id="submit-button" type="submit" value="Submit" name="submit">
+      </form>
+
+      <!--ADDED ITEMS DIV-->
+      <div class="added-items"></div>
+
+      <p id="delete-all">Delete All</p>
+
+    </div>
+
+  </div> 
+<script src="https://kit.fontawesome.com/f714257359.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
